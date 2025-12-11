@@ -1,0 +1,10 @@
+GIT COMMIT ID: a5cf2e305b744e3ebd2f2210341f88d349d4ec5e
+WITH_MKL: ON
+WITH_MKLDNN: ON
+WITH_GPU: ON
+WITH_ROCM: OFF
+CUDA version: 11.0
+CUDNN version: v8.0
+CXX compiler version: 19.16.27045.0
+WITH_TENSORRT: ON
+TensorRT version: v7.2.1.6
