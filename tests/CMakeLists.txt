@@ -1,7 +1,10 @@
 add_executable(cpp_test main.cpp)
 
 target_sources(cpp_test PRIVATE
-        ${PROJECT_SOURCE_DIR}/external_tools/src/ocr.cpp
+        ${PROJECT_SOURCE_DIR}/external_tools/src/detector.cpp
+        ${PROJECT_SOURCE_DIR}/external_tools/src/recognizer.cpp
+        ${PROJECT_SOURCE_DIR}/external_tools/src/ppocr.cpp
+        ${PROJECT_SOURCE_DIR}/external_tools/src/onnx_session.cpp
 )
 
 #set(ONNXRUNTIME_ROOT "C:/Users/Nanboom233/Desktop/Code/blue_archive_auto_script/core/external_tools/external_tools/external/onnxruntime-win-x64")
